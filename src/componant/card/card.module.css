@@ -1,0 +1,78 @@
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_contant {
+  display: flex;
+  width: 500px;
+  background-color: white;
+  justify-content: space-between;
+  color: black;
+  padding: 10px;
+  border-bottom: 2px solid orange;
+}
+.card_header h2 {
+  font-size: 25px;
+  color: orange;
+  font-weight: bolder;
+}
+.card_header img {
+  width: 100px;
+}
+.card_body p {
+  font-size: 18px;
+  color: black;
+  font-weight: bolder;
+}
+.categroy {
+  font-size: 25px;
+  font-weight: bolder;
+  color: green;
+}
+.total_amount {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.removeCard {
+  background-color: white;
+  padding: 10px;
+  font-weight: bolder;
+  width: 500px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.removeCard span {
+  color: red;
+  font-size: 40px;
+}
+.card_header img {
+  width: 60px;
+  height: 60px;
+}
+.button {
+  background-color: black;
+  width: 500px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.button button {
+  background-color: green;
+  color: white;
+  border: 1px solid orangered;
+}

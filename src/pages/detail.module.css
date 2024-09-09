@@ -1,0 +1,92 @@
+.Main_details {
+  width: 100%;
+  margin-top: 20px;
+}
+.detailImage img {
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+  height: 400px;
+  padding: 20px;
+  width: 80%;
+}
+.DetailContant {
+  margin-top: 30px;
+  width: 100%;
+}
+.DetailContant h1 {
+  font-size: 30px;
+  color: rgb(157, 0, 0);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.DetailContant p {
+  font-size: 18px;
+}
+.DetailContant h3 {
+  font-size: 25px;
+  color: orange;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.DetailContant h3 span {
+  font-size: 20px;
+  color: black;
+}
+.DetailContant h2 {
+  font-size: 20px;
+}
+.DetailsIcon span {
+  margin: 5px;
+  font-size: 30px;
+  color: orange;
+}
+.active {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.descriptionData {
+  width: 80%;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 20px;
+}
+.ReviewsDetails {
+  margin: auto;
+  width: 60%;
+  margin-top: 20px;
+}
+.form_group {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.form_group input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 5px;
+}
+.rating {
+  font-size: 20px;
+}
+.rating span {
+  font-size: 23px;
+  font-weight: bold;
+  color: orange;
+}
+.detailhead {
+  cursor: pointer;
+  font-size: 20px;
+}
+@media (max-width: 769px) {
+  .detailImage img {
+    width: 100%;
+  }
+}

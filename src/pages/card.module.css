@@ -1,0 +1,44 @@
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form input {
+  width: 100%;
+  margin: 5px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+form {
+  margin-top: 20px;
+}
+.card {
+  width: 100%;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.OrderBtn {
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+.card p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.card p span {
+  font-size: 22px;
+  color: orange;
+  font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+.clock {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.clock_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock__inner {
+  margin: 20px;
+}

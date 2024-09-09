@@ -1,0 +1,73 @@
+/* Global CSS or CSS Module */
+.login-form {
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.login-form label {
+  font-weight: 500;
+  color: #b7b7b7;
+}
+
+.login-form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-form button {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form .mr-2 {
+  margin-right: 10px;
+}
+
+.login-form .text-center {
+  text-align: center;
+}
+
+.login-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-form button[type="reset"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.login-form button:hover {
+  opacity: 0.9;
+}
+.login-form p {
+  font-size: 14px;
+  color: #555;
+}
+
+.login-form a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}

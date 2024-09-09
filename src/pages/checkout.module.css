@@ -1,0 +1,39 @@
+.table thead tr td {
+  padding: 10px;
+  margin-left: 10px;
+}
+.table {
+  width: 100%;
+}
+.checkout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.table thead tr {
+  border-bottom: 1px solid black !important;
+  padding: 10px;
+}
+td img {
+  width: 60px;
+  height: 60px;
+}
+.totalPrice {
+  font-size: 30px;
+  color: orange;
+}
+.checkBtn {
+  background-color: darkblue;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+}
+.buttonLink {
+  text-decoration: none;
+}
+.deleteIcon {
+  font-size: 40px;
+  color: red;
+}
